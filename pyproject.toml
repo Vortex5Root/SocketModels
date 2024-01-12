@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "protocol-v"
+version = "0.1.0"
+description = ""
+authors = ["Vortex5Root"]
+readme = "README.md"
+packages = [{include = "protocol_v"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
